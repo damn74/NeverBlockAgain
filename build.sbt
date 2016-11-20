@@ -1,4 +1,4 @@
-name := "TestAkkaHttp"
+name := "NeverBlockAgain"
 
 scalaVersion := "2.11.7"
 
@@ -21,5 +21,7 @@ lazy val root = (project in file("."))
 
 
 dockerBaseImage := "java"
+dockerExposedPorts := Seq(8080)
+
 
 
